@@ -11,6 +11,7 @@ h1{
     color: #061761;
     text-align: center;
     font-size: 46px;
+    margin-bottom: 0;
 }
 h2{
     color: #061761;
@@ -28,10 +29,36 @@ ul{
 .center{
     text-align: center;
 }
+.subtitle{
+    margin-top: 0;
+    text-align: center;
+    font-size: 46px;
+    background-color: #acb8eb;
+}
+
 a{
     text-decoration: none;
 }
 a:hover{
     text-decoration: underline;
 }
+.menu{
+    
+    text-align: right;
+}
+.menu li{
+    list-style:none ;
+     display: inline-block;
+    padding: 0px;
 
+}
+.menu a{
+    background: color #615d5d;;
+padding: 16px;
+display: block;
+
+}
+.menu a:hover{
+    color: #fff;
+    text-decoration: none;
+}
